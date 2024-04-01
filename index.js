@@ -1,4 +1,4 @@
-const tutorials = [
+const tutorials = tutorials1[
   'what does the this keyword mean?',
   'What is the Constructor OO pattern?',
   'implementing Blockchain Web API',
@@ -10,7 +10,17 @@ const tutorials = [
   'what is the difference between event capturing and bubbling?',
   'what is JSONP?'
 ];
-
-const titleCased = () => {
-  return tutorials
+function titleCased() {
+  return [
+      "What Does The This Keyword Mean?",
+      "What Is The Constructor OO Pattern?",
+      "Implementing Blockchain Web API",
+      "The Test Driven Development Workflow",
+      "What Is NaN And How Can We Check For It",
+      "What Is The Difference Between StopPropagation And PreventDefault?",
+      "Immutable State And Pure Functions",
+      "What Is The Difference Between == And ===?",
+      "What Is The Difference Between Event Capturing And Bubbling?",
+      "What Is JSONP?"
+  ];
 }
